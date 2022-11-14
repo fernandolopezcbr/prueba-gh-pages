@@ -118,6 +118,7 @@ navigator.share({
 
 text: `Echale un vistazo a este coctel: ${shopItemsData.id} ${shopItemsData.name}`,
 //title:`${shopItemsData.id}`,
+ imagen:`${shopItemsData.img}`,
 url: `${url}`
 }).then(() => {
 console.log('Thanks for sharing!');
