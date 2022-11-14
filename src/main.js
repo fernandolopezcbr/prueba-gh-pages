@@ -41,10 +41,10 @@ let generateShop = () => {
                     <div class="info">
                       <h2><br><span>${name}</span></h2>
                       <p>${desc ? desc : "Sin descripcion"}</p>
-                      <span class="price"></span>
-                      <a href="#" onclick="increment(${id})" class="add-cart-btn">Añadir a favoritos <i class="bi bi-heart" id="btnh1"></i></a>
                       
-                      <a href="#" class="add-wish" id="shareBtn">add compartir</a>
+                      <a href="#" onclick="increment(${id})" class="add-cart-btn">Añadir a favoritos <i class="bi bi-heart" id="btnh1"></i></a>
+                      <a href="#" class="add-wish" id="shareBtn">Compartir <i class="bi bi-share"></i></a>
+                      
                     </div>
                   </div>
                 </div>
@@ -115,8 +115,9 @@ var compartir = function share(){
 if (navigator.share) {
 // Browser supports native share api
 navigator.share({
-text: 'Echale un vistazo a este coctel: '+ name,
-//title:`${title}`,
+
+text: `Echale un vistazo a este coctel: ${x} ${id} ${name}`,
+title:`${x} ${id}`,
 url: `${url}`
 }).then(() => {
 console.log('Thanks for sharing!');
