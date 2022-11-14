@@ -101,7 +101,6 @@ generateShop();
 
 
 
-
 var popupViews = document.querySelectorAll('.popup-view');
 var popupBtns = document.querySelectorAll('.popup-btn');
 var closeBtns = document.querySelectorAll('.close-btn');
@@ -116,8 +115,9 @@ if (navigator.share) {
 // Browser supports native share api
 navigator.share({
 
-text: `Echale un vistazo a este coctel: ${x} ${id} ${name}`,
-title:`${x} ${id}`,
+
+text: `Echale un vistazo a este coctel:`,
+title:`${shopItemsData.id}`,
 url: `${url}`
 }).then(() => {
 console.log('Thanks for sharing!');
