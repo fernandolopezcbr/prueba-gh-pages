@@ -116,8 +116,8 @@ if (navigator.share) {
 navigator.share({
 
 
-text: `Echale un vistazo a este coctel:`,
-title:`${shopItemsData.id}`,
+text: `Echale un vistazo a este coctel: ${shopItemsData.id} ${shopItemsData.name}`,
+//title:`${shopItemsData.id}`,
 url: `${url}`
 }).then(() => {
 console.log('Thanks for sharing!');
@@ -293,5 +293,6 @@ window.onload = () => {
 };
 
 calculation();
+
 
 
