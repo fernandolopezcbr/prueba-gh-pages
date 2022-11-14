@@ -116,9 +116,9 @@ if (navigator.share) {
 navigator.share({
 
 
-text: `Echale un vistazo a este coctel: ${shopItemsData.id} ${shopItemsData.name}`,
+text: `Echale un vistazo a este coctel: `,
 //title:`${shopItemsData.id}`,
- imagen:`${shopItemsData.img}`,
+ imagen:`url(favicon) de sitio`,
 url: `${url}`
 }).then(() => {
 console.log('Thanks for sharing!');
