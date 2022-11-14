@@ -1,0 +1,65 @@
+{
+    "name": "#SeccionFavoritos",
+    "short_name": "#SeccionFavoritos",
+    "description": "Bienvenid@ a #SeccionFavoritos, donde podras ve cantidad de cocteles y sobre todo guardarlos",
+    "background_color": "#2B2B2B",
+    "theme_color": "#F0DB4F",
+    "orientation": "portrait",
+    "display":"standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons":[
+        {
+        "src": "./images/img-1.jpg",
+        "sizes":"1024x1024",
+        "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"512x512",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"384x384",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"256x256",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"192x192",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"128x128",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"96x96",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"64x64",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"32x32",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./images/img-1.jpg",
+            "sizes":"16x16",
+            "type": "image/jpg"
+        }
+
+    ]
+}
